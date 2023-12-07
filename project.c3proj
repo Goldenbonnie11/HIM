@@ -1,0 +1,449 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 36802,
+	"name": "HELP",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "y8lsmdf3exd",
+	"objectTypes": {
+		"items": [
+			"Player",
+			"TiledBackground",
+			"TiledBackground2",
+			"Zombie1",
+			"Keyboard",
+			"collisionbox",
+			"Key",
+			"HUD",
+			"titleText",
+			"titleText2",
+			"Play",
+			"Mouse",
+			"Text",
+			"Exit",
+			"TiledBackground3",
+			"TiledBackground4",
+			"blood",
+			"FrontHelmet",
+			"Shotgun",
+			"FrontHandL",
+			"FrontArmor",
+			"Sprite",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Ghost",
+			"9patch",
+			"9patch2",
+			"Text2",
+			"SceneTrigger",
+			"Audio"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Title screen",
+			"Level 1",
+			"Game Over 1",
+			"Win Screen",
+			"Layout 1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Level 1",
+			"Title screen",
+			"Game over",
+			"Win",
+			"Level 2",
+			"dialogue"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "Dialogue.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 399063827247404,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Ambience.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 464172827077005,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Swingifzombie.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 908876810554366,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Swing.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 462252022832902,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Shoot.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 207297503532357,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Reload.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 510182124065363,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "GameOver.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 886900500322351,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "heavy-raining-rain-on-tree-natural-clear-sound-abbas-ali-quiet-life-relaxing-music-11938.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 797774906488768,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Death.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 722985102014841,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ManDeath.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 888353861838827,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Heal.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 736096213512941,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "item-equip-6904.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 239735474957179,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "dorm-door-opening-6038.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 778482398100642,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Monster.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 146544877795409,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "horror-chase-34447.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 819462949208382,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 980175381267472,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 543338928636278,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 472868839366440,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 144310930102660,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 730649975222909,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 625597419963423,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 925468715088109,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 960,
+	"firstLayout": null
+}
